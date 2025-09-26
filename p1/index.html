@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - Lets learn it</title>
+</head>
+<body>
+    <h1>Form to apply for a job</h1>
+    <form action="post">
+        <div>
+        <label for="username">Enter your Username</label>
+        <input type="text" name="username" placeholder="Enter your name">
+        <input type="text" placeholder="Enter your Username">
+        </div>
+        <div>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        </div>
+        <div>
+            <input type="checkbox" id="terms" name="terms" value="yes">
+            <label for="terms">I agree to the terms and conditions</label>
+        </div>
+        <div>
+            <label for="comment">Enter your comment</label>
+            <br>
+            <textarea name="comment" rows="4" cols="50"></textarea>
+        </div>
+        <div>
+            <select name="city">
+                <option value="delhi">Delhi</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="bengaluru">Bengaluru</option>
+                <option value="chennai">Chennai</option>
+                <option value="kolkata">Kolkata</option>
+                <option value="hyderabad">Hyderabad</option>
+                <option value="pune">Pune</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
